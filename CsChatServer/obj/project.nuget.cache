@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "LHzq2GZlG/Lyey34It9ElhcSErV+16j1Og94qioypBNOQPA0lgafeimNcuAAulf/l7QY/eDFQQIA8seNIazYcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noahj\\RiderProjects\\CsChatServer\\CsChatServer\\CsChatServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noahj\\.nuget\\packages\\websocketsharp-nonprerelease\\1.0.0\\websocketsharp-nonprerelease.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebSocketSharp-NonPreRelease 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebSocketSharp-NonPreRelease",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

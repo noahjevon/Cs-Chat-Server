@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CsChatServer/1.0.0": {
+        "dependencies": {
+          "WebSocketSharp-NonPreRelease": "1.0.0"
+        },
+        "runtime": {
+          "CsChatServer.dll": {}
+        }
+      },
+      "WebSocketSharp-NonPreRelease/1.0.0": {
+        "runtime": {
+          "lib/net35/websocket-sharp.dll": {
+            "assemblyVersion": "1.0.2.32519",
+            "fileVersion": "1.0.2.32519"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsChatServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebSocketSharp-NonPreRelease/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1TLFp8hwgVFEI0bjAGLAdsGwtT+yggdRYAlOSw+ZCtwHVc5LmUBU52H+KgG37med9e11lsxmlNzzlF6/hW+Bg==",
+      "path": "websocketsharp-nonprerelease/1.0.0",
+      "hashPath": "websocketsharp-nonprerelease.1.0.0.nupkg.sha512"
+    }
+  }
+}
